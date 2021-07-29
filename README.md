@@ -33,13 +33,14 @@ Discord has several features those helped us implement the desired framework mos
 - **Thread:** From a conversation inside a `text channel`, we can create thread. Two types of thread:
   - active: it helps maintain active conversations
   - archived: it helps maintain inactive conversations
-[Note: An archived channel can be revived later by sending a message, which will be used to keep `resources` channel always active.]
+  
+[Note: An archived channel can be revived later by sending a message. This technique will be used to keep `resources` channel always active.]
 
 
 #### Mapping the framework into discord features
-We use `channel` for `each topic` and use `active(long lived) thread` to maintain `components(such as "resources")` of a topic. And the `category feature` is used to bundle relative topics into a `category`.
+We use `channel` for `each topic` and use `active(long lived) thread` to maintain `components(such as "resources")` of a topic. And the `category feature` is used to bundle related topics into a `category`.
 
-The following picture will help it clear for you:
+The following picture will make it clear for you:
 - Programming languages [category -> category]
   - c++ [topic -> channel]
     - resources [component -> thread(active)]
