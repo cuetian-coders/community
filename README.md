@@ -99,11 +99,18 @@ We've also sum up the ways that how the community users can get the most out of 
   - If you can, then help others indirectly by:
     - help by pointing to right direction
     - by tagging a person/persons who can help
+- Voice Channel
+  - Weekly discussion
+    - You can host/partiticpate in weekly discussion with community memebers who're studying similiar topics
+  - Hangout
+    - Hangout with other programmers in lively audio chat
+    - Have fun
+
 
 ### How the above ways of interaction helps
 - **Finding out people of same interest:** The above approach helps finding out people of same interest, cause they will be sharing/asking questions in the same topic channel, thus will be able to help each other out.
 
-- **Expert-Beginner interaction:** No matter what we say, we're always a beginner in something. Maybe one person is beginner in `machine-learning`, but very good in `system-design`, but another person very good at `machine-learning` but no good in `system-design`, they can help each other out in respective fields.
+- **Expert-Beginner interaction:** No matter what we say, we're always a beginner in something. Maybe one person is beginner in `machine-learning`, but very good in `system-design`, but another person very good at `machine-learning` but not good in `system-design`, they can help each other out in respective fields.
 
 
 ## The final advice
