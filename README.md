@@ -17,7 +17,7 @@ A `discord` channel is being used to interact with each other. The goal is to le
 
 - The basic building block of the framework is an abstraction, we call it `topic`. Some examples of topics are `c++`, `microservices`, `system-design`, `competitive-programming`, `machine-learning`, `interview-prep`, `job-circular` etc.
 
-- Each topic is divided into necessary components, such as `resources`, `announcements` etc. Note: it's possible that a topic may not be divided into any components.
+- Each topic can have necessary `auxiliary components`, such as `resources`, `announcements` etc. Note: it's possible that a topic may not have any auxiliary components.
 
 - Topics are grouped together based on their cohesive nature to be discussed together, an exmaple could be `c++`, `python`, `java`, `haskell`, `lisp` all are programming languages. So, we categorize them into `Programming Languages` category.
 
@@ -28,8 +28,8 @@ Discord has several features those helped us implement the desired framework mos
 #### Discord features
 - **Category:** Category helps to organize channels
 - **Channel:** Channel is used for discussion/conversation. There're 2 types of channel:
-  - text channel
-  - voice channel
+  - text channel: used for text messages
+  - voice channel: used for audio/video chat
 - **Thread:** From a conversation inside a `text channel`, we can create thread. Two types of thread:
   - active: it helps maintain active conversations
   - archived: it helps maintain inactive conversations
