@@ -23,14 +23,14 @@ A `discord` channel is being used to interact with each other. The goal is to le
 
 
 ### Implementing the framework using discord
-Discord has several features those helped us implement the desired framework most flexibly. Here, I've described how we can achieve the framework that we want to implement. But first we must familiar with some simple discord features.
+Discord has several features those helped us implement the desired framework most flexibly. Here, I've described how we can achieve the framework that we want to implement. But first we must get familiar with some simple discord features.
 
 #### Discord features
-- **Category:** Category helps to organize channel
+- **Category:** Category helps to organize channels
 - **Channel:** Channel is used for discussion/conversation. There're 2 types of channel:
   - text channel
   - voice channel
-- **Thread:** From a conversation inside a `text channel`, we can create thread. Two types of thread
+- **Thread:** From a conversation inside a `text channel`, we can create thread. Two types of thread:
   - active: it helps maintain active conversations
   - archived: it helps maintain inactive conversations
 [Note: An archived channel can be revived later by sending a message, which will be used to keep `resources` channel always active.]
@@ -45,7 +45,7 @@ The following picture will help it clear for you:
     - resources [component -> thread(active)]
     - announcements [component -> thread(24hrs, then archived)]
     - small conversation on pointer [smalltalk -> thread(shortlived, 1hr, archived)]
-  - java [category -> category]
+  - java [topic -> channel]
     - resources [component -> thread(active)]
     - announcements [component -> thread(24hrs, then archived)]
   - python
@@ -57,7 +57,7 @@ The following picture will help it clear for you:
     - resources [component -> thread(active)]
     - announcements [component -> thread(24hrs, then archived)]
     - small conversation on templating [smalltalk -> thread(shortlived, 1hr, archived)]
-  - Django [category -> category]
+  - Django [topic -> channel]
     - resources [component -> thread(active)]
     - announcements [component -> thread(24hrs, then archived)]
   - Express.js
@@ -69,7 +69,7 @@ The following picture will help it clear for you:
     - resources [component -> thread(active)]
     - announcements [component -> thread(24hrs, then archived)]
     - small conversation on service discovery [smalltalk -> thread(shortlived, 1hr, archived)]
-  - Clean Code [category -> category]
+  - Clean Code [topic -> channel]
     - resources [component -> thread(active)]
     - announcements [component -> thread(24hrs, then archived)]
   - System Design
@@ -78,7 +78,7 @@ The following picture will help it clear for you:
 
 
 ## How to get the most out of the community
-We've also sum up the ways that how the community users can get the most out of the interaction framework. The interaction style is setup in a way that it helps in both centralized and distributive learning style.
+I've also sum up the ways that how the community users can get the most out of the interaction framework. The interaction style is setup in a way that it helps in both centralized and distributive learning style.
 
 ### The ways of interaction:
 
@@ -114,4 +114,4 @@ We've also sum up the ways that how the community users can get the most out of 
 
 
 ## The final advice
-Just do it. Never stop, never sit idle. Always act/interact/react.
+Just do it. Never stop, never sit idle. Always act, interact and react.
