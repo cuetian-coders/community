@@ -98,8 +98,8 @@ I've also sum up the ways that how the community users can get the most out of t
     - answering questions
     - solving problems
   - If you can, then help others indirectly by:
-    - help by pointing to right direction
-    - by tagging a person/persons who can help
+    - pointing to the right direction
+    - tagging a person/persons who can help
 - Voice Channel
   - Weekly discussion
     - You can host/partiticpate in weekly discussion with community memebers who're studying similiar topics
@@ -115,4 +115,4 @@ I've also sum up the ways that how the community users can get the most out of t
 
 
 ## The final advice
-Just do it. Never stop, never sit idle. Always act, interact and react.
+Just do it. Never stop, never sit idle. Always act, react and interact.
